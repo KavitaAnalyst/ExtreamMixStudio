@@ -1,0 +1,146 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    height: 100%;
+    background-color: black;
+}
+/* 
+#header{
+    position:relative;
+    height:100%;
+    
+} */
+
+/*Navbar */
+.navbar{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    /* background-color:rgba(0,0,0, 0.3); */
+    padding: 8px 0px;
+    color:rgb(179, 245, 245); 
+    z-index: 2;
+
+}
+.logo h1{
+    padding-left: 40px;
+}
+.logo span{
+    color:#ff4040;
+}
+nav ul{
+margin-top: 35px;
+list-style: none;
+margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right:20px;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+.banner-video{
+    position: absolute;
+    top:0;
+    left:0;
+    height:120%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.header-content {
+    position:absolute;
+    z-index: 1; /* Ensure content is above the video */
+     color: #fff;
+    transform: translateY(90%);
+}
+.text{
+    position: relative;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 140px;
+    height:54vh;
+}
+
+.text-content p{
+    font-weight: 200;
+    text-align: left;
+    margin-top: -5px;
+    
+}
+.text-content h1{
+    margin-top:-10px;
+    font-size: 60px;
+    text-align: left;
+    color:#fff;
+}
+.line{
+    width:2px;
+    height:83%;
+    background-color: #fff;
+    margin-right: 40px;
+
+}
+.para{
+    margin-top:-20px;
+    width:73%;
+    text-align: left;
+}
+.header-content button{
+    width:30%;
+    padding:6px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid #ff4040;
+    color:#ff4040;
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.list-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-items ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.about-heading h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.about-heading p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.moreInfo {
+    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
